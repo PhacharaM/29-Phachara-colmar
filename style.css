@@ -80,6 +80,144 @@
 
 /*Nav Desktop is done */
 
+/* hero section Desktop */
+.hero-section-desktop{
+  background-color: rgb(204, 204, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-hero-section-desktop {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px 32px 24px;
+}
+
+.hero-section-desktop-content{
+  display: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.hero-section-desktop-content h1{
+  padding: 24px;
+  text-align: left;
+}
+
+.hero-section-desktop-content p{
+  font-size: 24px;
+  padding: 24px;
+  text-align: left;
+}
+
+.hero-section-desktop-content button{
+  margin: 24px;
+  padding: 8px 100px;
+  background-color: rgb(47, 46, 46);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* hero section Desktop is done */
+
+/* Information Desktop*/
+.information-desktop{
+ background-color: white;
+ display: flex;
+
+}
+.main-information-desktop{
+  width: 100;
+  display: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img-information-desktop{
+  width: 60;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.text-information-desktop {
+  display: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-information-desktop h1{
+  margin: 32px 24px 24px 24px;
+}
+
+.main-information-desktop p{
+ font-size: 24px;
+ margin: 32px 24px 24px 24px;
+}
+
+.main-information-desktop name{
+  margin: 24px 24px;
+  justify-content: end;
+  align-items: end;
+}
+
+.information-desktop-card{
+  width: 40;
+  display: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.information-desktop-card1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.information-desktop-card2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.information-desktop-card2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.information-desktop-card-text{
+  display: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* Information Desktop not done*/
+
+/* course-desktop  */
+.course-desktop{
+  background-color: grey;
+}
+
+.course-desktop title{
+  text-align: center;
+
+}
+
+.course-desktop-card{
+	width: 100%;
+	display: inline-grid;
+  gap: 32px 32px;
+  grid-template-areas:
+		"course-desktop-card1 course-desktop-card2 course-desktop-card3"
+		"course-desktop-card4 course-desktop-card5 course-desktop-card6";
+}
+
+
+/* Mobile */
+
 @media (max-width: 720px) {
   .desktop-version {
     display: none;
@@ -88,32 +226,104 @@
     display: block;
   }
 }
+
 /* ===== Mobile Nav ===== */
 .mobile-nav {
   height: 64px;
-  background-color: rgb(95, 92, 92);
+  background-color: whitesmoke;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
+.mobile-nav-menu {
+    width: 100%;
+  }
+
 .mobile-nav-menu ul {
+  list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly; /* spaces icons evenly */
   align-items: center;
   width: 100%;
-  list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .mobile-nav-menu li a {
   display: inline-block;
-  justify-content: space-evenly;
-
 }
 
 .mobile-nav-menu li a img {
   width: 32px;
   height: auto;
 }
+/*Nav mobile is done */
+
+/* hero section mobile */
+.hero-section-mobile{
+  background-color: rgb(204, 204, 204);
+  display: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-hero-section-mobile{
+  margin-bottom: 32px;
+}
+
+.hero-section-mobile-content{
+  display: row;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.hero-section-mobile-content h1 {
+  margin: 32px 16px 32px 16px;
+}
+
+.hero-section-mobile-content p {
+  margin: 32px 16px 24px 16px;
+}
+.hero-section-mobile-content button {
+  margin: 24px 16px 32px 16px;
+  padding: 8px 100px;
+  background-color: rgb(125, 125, 125);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* hero section mobile is done*/
+
+/* information-mobile */
+
+.information-mobile{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-mobile-card1 {
+  display: row;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 16px 64px 16px;
+}
+
+.information-mobile-card2 {
+  display: row;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 16px 64px 16px;
+}
+.information-mobile-card3 {
+  display: row;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 16px 64px 16px;}
+
