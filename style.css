@@ -1,0 +1,87 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap,100..900;1,14..32,100..900&display=swap");
+
+/* :root {
+	--font-sans: "Poppins";
+
+	--nav-height: 64px;
+} */
+
+:root {
+  font-family: "Poppins", "inter";
+  background-color: whitesmoke;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Default = Desktop visible, Mobile hidden */
+.desktop-version {
+  display: block;
+}
+.mobile-version {
+  display: none;
+}
+
+/* Nav Desktop */
+
+.desktop-version nav{
+	height: 64px;
+	background-color: whitesmoke;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.desktop-nav-logo {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    margin-left: 24px;
+    margin-top: 32;
+    float: left;
+    }
+.desktop-nav-logo img{
+    width: 32px;
+    height: auto;
+    }
+
+.desktop-nav-logo p {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: inline;
+    vertical-align: middle;
+    font-family: "Poppins", "inter";
+    }
+
+.desktop-nav-menu {
+  list-style: none;
+  margin-right: 24px;
+  padding: 0;
+  text-align: right;
+  align-self: center;
+}
+
+.desktop-nav-menu li {
+  display: inline-block;
+  margin-left: 16px;
+  font-family: "Poppins", "inter";
+}
+
+.desktop-nav-menu li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+  font-weight: 500;
+}
+
+.desktop-nav-menu li a:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+/*Nav Desktop is done */
